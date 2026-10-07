@@ -4,12 +4,13 @@
 [ext_resource type="Texture2D" uid="uid://brsy70u843wyn" path="res://Textures/bubble.png" id="2_iauun"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_fh211"]
-radius = 228.01973
+radius = 97.082436
 
 [node name="Bubble" type="Area2D" unique_id=880408077]
 script = ExtResource("1_sc4i0")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1359445365]
+scale = Vector2(0.4296875, 0.4296875)
 texture = ExtResource("2_iauun")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1303548825]

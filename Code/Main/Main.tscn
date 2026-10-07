@@ -6,5 +6,8 @@
 [node name="Main" type="Node" unique_id=1525632278]
 script = ExtResource("1_lxy7q")
 
+[node name="Timer" type="Timer" parent="." unique_id=1106161598]
+autostart = true
+
 [node name="Bubble" parent="." unique_id=84825511 instance=ExtResource("2_83ytx")]
 position = Vector2(510, 293)
